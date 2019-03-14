@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="stills-index">
+
+  {{ content }}
+
+  {%- if site.stills.size > 0 -%}
+      {%- for still in site.stills -%}
+      <div class="home-project-wrapper">
+        <div class="home-project-image">
+          <a class="no-underline" href="{{ still.url | relative_url }}">
+            <img src="/assets/{{ still.image[0] }}" alt="/assets/{{ still.image-alt[0] }}">
+          </a>
+        </div>
+        <div class="home-project-title">
+          <a href="{{ still.url | relative_url }}" >{{ still.title }}</a>
+        </div>
+      </div>
+      {%- endfor -%}
+  {%- endif -%}
+
+</div>

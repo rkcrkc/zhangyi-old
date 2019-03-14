@@ -1,0 +1,27 @@
+{% if page.collection %}
+    {% assign links = site[page.collection]  %}
+{% endif %}
+
+{% for link in links %}
+	{% if link.title == page.title %}
+		{% unless forloop.first %}
+			{% assign prev = tmpprev %}
+		{% endunless %}
+		{% unless forloop.last %}
+			{% assign next = links[forloop.index] %}
+		{% endunless %}
+	{% endif %}
+	{% assign tmpprev = link %}
+{% endfor %}
+
+<script>
+document.body.onkeyup = function(e){
+if (e.keyCode == '37') { window.location = '{{ prev.url }}'; }
+if (e.keyCode == '39') { window.location = '{{ next.url }}'; }
+};
+</script>
+
+<div class="prevnext">
+	{% if prev %}<span class="prev-link"><a href="{{ prev.url}}"><i class="fas fa-angle-left"></i> {{ prev.title }}</a></span>{% endif %}
+	{% if next %}<span class="next-link"><a href="{{ next.url}}">{{ next.title }} <i class="fas fa-angle-right"></i></a></span>{% endif %}
+</div>

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="project">
+
+  <div class="project-media-wrapper">
+
+    {%- include project_video.html -%}
+
+	{%- if page.screenshot -%}
+	    {%- include project_screenshots.html -%}
+	{%- endif -%}
+
+  </div><!-- .project-media-wrapper -->
+
+  <div class="project-copy-wrapper">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </div>
+
+</div><!-- .project -->
+
+{%- include prevnext.html -%}

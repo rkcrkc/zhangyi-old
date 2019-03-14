@@ -1,0 +1,5 @@
+{% for screenshot in page.screenshot %}
+	<div class="project-media-item">
+		<img src="/assets/{{ page.screenshot[forloop.index0] }}" alt="{{ page.screenshot-alt[forloop.index0] }}">
+	</div>
+{% endfor %}

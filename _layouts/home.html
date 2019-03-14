@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {%- if site.reels.size > 0 -%}
+      {%- for reel in site.reels -%}
+      <div class="home-project-wrapper reel">
+  	    <div class="video-wrapper">
+  	      <iframe src="https://player.vimeo.com/video/{{ reel.vimeo_id }}?color=f5f7f7&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  	    </div>
+      </div>
+      {%- endfor -%}
+  {%- endif -%}
+
+  {%- if site.projects.size > 0 -%}
+      {%- for project in site.projects -%}
+      <div class="home-project-wrapper">
+        <div class="home-project-image">
+  	      <a class="no-underline" href="{{ project.url | relative_url }}" >
+  	        <img src="/assets/{{ project.cover_image }}" alt="{{ project.title }}">
+  	      </a>
+        </div>      	
+        <div class="home-project-title">
+          <a href="{{ project.url | relative_url }}" >{{ project.title }}</a>
+        </div>
+      </div>
+      {%- endfor -%}
+  {%- endif -%}  
+
+</div>

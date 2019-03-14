@@ -1,0 +1,5 @@
+{% for image in page.image %}
+	<div class="project-media-item">
+		<img src="/assets/{{ page.image[forloop.index0] }}" alt="{{ page.image-alt[forloop.index0] }}">
+	</div>
+{% endfor %}

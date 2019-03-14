@@ -33,14 +33,24 @@ plugins:
   - jekyll-paginate
 
 collections:
+  mycollection_1:
+   output: true
+   permalink: /:name
+  mycollection_2:
+   output: true
+   permalink: /:name  
   projects:
    output: true
+   permalink: /:name
   stills:
    output: true
+   permalink: /:name   
   reels:
    output: true
+   permalink: /:name
 
 header_pages:
+- sets.md
 - stills.md
 - contact.md
 

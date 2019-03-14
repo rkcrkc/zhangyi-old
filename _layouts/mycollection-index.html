@@ -4,21 +4,27 @@ layout: default
 
 <div class="collection-index">
 
+  <h2>{{ page.title }}</h2>
+
   {{ content }}
 
-  {%- if site.stills.size > 0 -%}
-      {%- for still in site.stills -%}
-      <div class="home-project-wrapper">
-        <div class="home-project-image">
-          <a class="no-underline" href="{{ still.url | relative_url }}">
-            <img src="/assets/{{ still.image[0] }}" alt="/assets/{{ still.image-alt[0] }}">
+  <div class="collection-index-gallery">
+
+    {%- if site.mycollection_1.size > 0 -%}
+        {%- for item in site.mycollection_1 -%}
+        <div class="collection-index-image">
+          <a class="no-underline" href="{{ item.url | relative_url }}">
+            <img src="/assets/{{ item.image }}" alt="/assets/{{ item.title }}">
           </a>
+          <!--
+          <div class="home-project-title">
+            <a href="{{ item.url | relative_url }}" >{{ item.title }}</a>
+          </div>
+          -->
         </div>
-        <div class="home-project-title">
-          <a href="{{ still.url | relative_url }}" >{{ still.title }}</a>
-        </div>
-      </div>
-      {%- endfor -%}
-  {%- endif -%}
+        {%- endfor -%}
+    {%- endif -%}
+
+  </div>
 
 </div>

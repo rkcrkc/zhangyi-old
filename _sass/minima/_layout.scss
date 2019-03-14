@@ -21,7 +21,7 @@ SITE HEADER
 
     @include media-query($screen-sm) {
       align-items: end;
-    @include relative-font-size(0.85);      
+      @include relative-font-size(0.85);      
     }
   }
 }
@@ -232,6 +232,7 @@ HOME PAGE
 
 .home-collection-image {
   overflow: hidden;
+  border: 3px solid black;  
   
   img {
     -moz-transition: all 650ms;
@@ -259,6 +260,40 @@ HOME PAGE
     letter-spacing: 1px;
   }
 }
+
+/* ===============
+COLLECTION ITEM PAGE
+================ */
+
+.collection-index {
+}
+
+.collection-index-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: $gutter;
+  grid-auto-rows: minmax(auto, auto);
+
+
+  @include media-query($screen-sm) {
+    align-items: end;
+  }
+}
+
+.collection-index-image {
+
+}
+
+//* MASONRY *//
+
+.grid {
+  text-align: center;
+}
+
+.grid-item {
+  width: 200px;
+}
+
 
 /* ===============
 COLLECTION ITEM PAGE

@@ -1,5 +1,5 @@
 ---
-layout: mycollection-item
+layout: collection-item
 title:  "Old City Wall"
 title-zh: "老城牆"
 permalink: "old_city_wall"

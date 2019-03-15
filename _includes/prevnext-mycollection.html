@@ -1,0 +1,11 @@
+<script>
+document.body.onkeyup = function(e){
+if (e.keyCode == '37') { window.location = '{{ page.prev }}'; }
+if (e.keyCode == '39') { window.location = '{{ page.next }}'; }
+};
+</script>
+
+<div class="prevnext">
+	{% if page.prev-title %}<span class="prev-link"><a href="{{ page.prev-url }}"><i class="fas fa-angle-left"></i> {{ page.prev-title }}</a></span>{% endif %}
+	{% if page.next-title %}<span class="next-link"><a href="{{ page.next-url }}">{{ page.next-title }} <i class="fas fa-angle-right"></i></a></span>{% endif %}
+</div>

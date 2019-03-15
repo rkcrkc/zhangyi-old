@@ -1,9 +1,9 @@
 ---
-layout: mycollection-item
-title:  "Inside the gate"
-title-zh: "內院"
-permalink: inside_the_gate
-image: "mycollections/my_nanjiang/5_内院.jpg"
+layout: collection-item
+title:  "Wawa dolls"
+title-zh: "布娃娃"
+permalink: wawa_dolls
+image: "mycollections/my_nanjiang/7_布娃娃.jpg"
 artist: "Zhang Yi"
 medium: "Oil on canvas"
 size: "80 x 90"

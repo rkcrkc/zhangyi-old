@@ -1,9 +1,9 @@
 ---
-layout: mycollection-item
-title:  "Da Niu"
-title-zh: "打牛"
-permalink: da_niu
-image: "mycollections/my_nanjiang/8_打牛.jpg"
+layout: collection-item
+title:  "The Courtyard"
+title-zh: "院門"
+permalink: the_courtyard
+image: "mycollections/my_nanjiang/4_院门.jpg"
 artist: "Zhang Yi"
 medium: "Oil on canvas"
 size: "80 x 90"

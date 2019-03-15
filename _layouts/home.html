@@ -10,7 +10,7 @@ layout: default
 
   <div class="home-collection-wrapper">
     <div class="home-collection-image">
-      <a class="no-underline" href="/my_nanjiang" >
+      <a href="/my_nanjiang" >
         <img src="/assets/mycollections/my_nanjiang/17_印象中的阿勒屯鲁克.jpg" alt="#">
       </a>
     </div>        
@@ -22,7 +22,7 @@ layout: default
 
   <div class="home-collection-wrapper">
     <div class="home-collection-image">
-      <a class="no-underline" href="a_childhood" >
+      <a href="a_childhood" >
         <img src="/assets/mycollections/a_childhood/1_向日葵.jpg" alt="#">
       </a>
     </div>        
@@ -32,19 +32,28 @@ layout: default
     </div>
   </div>
 
+  <div class="home-title page-title">
+    <h3>Other Work</h3>
+  </div>  
+
+  <div class="home-projects-wrapper">
   {%- if site.projects.size > 0 -%}
-      {%- for project in site.projects -%}
-      <div class="home-collection-wrapper">
-        <div class="home-collection-image">
-  	      <a class="no-underline" href="{{ project.url | relative_url }}" >
-  	        <img src="/assets/{{ project.cover_image }}" alt="{{ project.title }}">
-  	      </a>
-        </div>      	
-        <div class="home-collection-title">
-          <a href="{{ project.url | relative_url }}" >{{ project.title }}</a>
-        </div>
+    {%- for project in site.projects -%}     
+    <div class="home-project">   
+      <div class="home-project-image">
+	      <a href="{{ project.url | relative_url }}" >
+	        <img src="/assets/{{ project.item[0] }}" alt="{{ project.title }}">
+	      </a>
+      </div>      	
+      <div class="home-project-title">
+        <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+        <p>{{ project.medium }}</p>
       </div>
-      {%- endfor -%}
+    </div>
+    {%- endfor -%}
   {%- endif -%}  
+  </div>  
+
+  {%- include bio_snippet.html -%}
 
 </div>

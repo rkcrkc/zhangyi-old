@@ -33,10 +33,10 @@ plugins:
   - jekyll-paginate
 
 collections:
-  mycollection_1:
+  my_nanjiang:
    output: true
    permalink: /:name
-  mycollection_2:
+  a_childhood:
    output: true
    permalink: /:name  
   projects:

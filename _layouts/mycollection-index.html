@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{%- assign collectionName = page.permalink -%}      
+
 <div class="collection-index">
 
   <div class="home-title page-title">
@@ -9,22 +11,27 @@ layout: default
   </div>    
 
   <div class="collection-index-copy">
-    {{ content }}
+    <div>
+      {{ page.description-en }}
+    </div>
+    <div>
+      {{ page.description-zh }}      
+    </div>
   </div>
 
   <div class="collection-index-gallery">
     <ul class="cascade-grid effect-1" id="cascade-grid">
-    {%- if site.mycollection_1.size > 0 -%}
-        {%- for item in site.mycollection_1 -%}      
+
+      {%- for item in site[collectionName] -%}
       <li>
         <a href="{{ item.url | relative_url }}">
           <img src="/assets/{{ item.image }}" alt="/assets/{{ item.title }}">
         </a>        
       </li>
-        {%- endfor -%}
-    {%- endif -%}      
+      {%- endfor -%}
     </ul>  
   </div>
 
-
 </div>
+
+{%- include prevnext-mycollection.html -%}

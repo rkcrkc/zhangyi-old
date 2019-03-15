@@ -1,9 +1,9 @@
 ---
-layout: mycollection-item
-title:  "The Courtyard"
-title-zh: "院門"
-permalink: the_courtyard
-image: "mycollections/my_nanjiang/4_院门.jpg"
+layout: collection-item
+title:  "Impressions of"
+title-zh: "印象中的..."
+permalink: impressions_of
+image: "mycollections/my_nanjiang/17_印象中的阿勒屯鲁克.jpg"
 artist: "Zhang Yi"
 medium: "Oil on canvas"
 size: "80 x 90"

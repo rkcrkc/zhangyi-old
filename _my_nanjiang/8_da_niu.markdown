@@ -1,9 +1,9 @@
 ---
-layout: mycollection-item
-title:  "Impressions of"
-title-zh: "印象中的..."
-permalink: impressions_of
-image: "mycollections/my_nanjiang/17_印象中的阿勒屯鲁克.jpg"
+layout: collection-item
+title:  "Da Niu"
+title-zh: "打牛"
+permalink: da_niu
+image: "mycollections/my_nanjiang/8_打牛.jpg"
 artist: "Zhang Yi"
 medium: "Oil on canvas"
 size: "80 x 90"

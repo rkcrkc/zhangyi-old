@@ -1,0 +1,57 @@
+.cascade-grid {
+	max-width: 100%;
+	list-style: none;
+	margin: 30px auto;
+	padding: 0;
+}
+
+.cascade-grid li {
+	display: block;
+	float: left;
+	padding: $gutter/2;
+	width: 33%;
+	opacity: 0;
+	height: auto;
+}
+
+.cascade-grid li.shown,
+.no-js .cascade-grid li,
+.no-cssanimations .cascade-grid li {
+	opacity: 1;
+}
+
+.cascade-grid li a,
+.cascade-grid li img {
+	outline: none;
+	border: none;
+	display: block;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+	.cascade-grid li {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.cascade-grid li {
+		width: 100%;
+	}
+}
+
+/* Effect 1: opacity */
+.cascade-grid.effect-1 li.animate {
+	-webkit-animation: fadeIn 0.65s ease forwards;
+	animation: fadeIn 0.65s ease forwards;
+}
+
+@-webkit-keyframes fadeIn {
+	0% { }
+	100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+	0% { }
+	100% { opacity: 1; }
+}

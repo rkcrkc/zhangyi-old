@@ -4,27 +4,27 @@ layout: default
 
 <div class="collection-index">
 
-  <h2>{{ page.title }}</h2>
+  <div class="home-title page-title">
+    <h3>{{ page.title }}</h3>
+  </div>    
 
-  {{ content }}
+  <div class="collection-index-copy">
+    {{ content }}
+  </div>
 
   <div class="collection-index-gallery">
-
+    <ul class="cascade-grid effect-1" id="cascade-grid">
     {%- if site.mycollection_1.size > 0 -%}
-        {%- for item in site.mycollection_1 -%}
-        <div class="collection-index-image">
-          <a class="no-underline" href="{{ item.url | relative_url }}">
-            <img src="/assets/{{ item.image }}" alt="/assets/{{ item.title }}">
-          </a>
-          <!--
-          <div class="home-project-title">
-            <a href="{{ item.url | relative_url }}" >{{ item.title }}</a>
-          </div>
-          -->
-        </div>
+        {%- for item in site.mycollection_1 -%}      
+      <li>
+        <a href="{{ item.url | relative_url }}">
+          <img src="/assets/{{ item.image }}" alt="/assets/{{ item.title }}">
+        </a>        
+      </li>
         {%- endfor -%}
-    {%- endif -%}
-
+    {%- endif -%}      
+    </ul>  
   </div>
+
 
 </div>

@@ -143,6 +143,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
 
+.page-title {
+    h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+  }
+}
+
 
 
 /* ============
@@ -162,6 +170,7 @@ a {
     }
   }
 
+/*
   &:after, &:visited:after {
     content: '';
     height: 3px;
@@ -189,6 +198,7 @@ a[class*="no-underline"] {
     width: 0%;
     background: none;
   }
+  */
 }
 
 

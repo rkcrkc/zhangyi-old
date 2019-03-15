@@ -174,12 +174,6 @@ HOME PAGE
 .home-title {
   padding: 0 0 ($gutter * 1.5);
   text-align: center;
-
-  h3 {
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-  }
 }
 
 .home-collection-wrapper {
@@ -269,31 +263,13 @@ COLLECTION ITEM PAGE
 }
 
 .collection-index-gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: $gutter;
-  grid-auto-rows: minmax(auto, auto);
-
-
-  @include media-query($screen-sm) {
-    align-items: end;
-  }
+  margin-left: $gutter * -0.5;
+  margin-right: $gutter * -0.5;
 }
 
 .collection-index-image {
 
 }
-
-//* MASONRY *//
-
-.grid {
-  text-align: center;
-}
-
-.grid-item {
-  width: 200px;
-}
-
 
 /* ===============
 COLLECTION ITEM PAGE

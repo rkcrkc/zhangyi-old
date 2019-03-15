@@ -19,10 +19,9 @@
 
     </div>
 
-    <script>
-
-    </script>  
-
+    {%- if page.layout == 'mycollection-index' -%}
+      {%- include grid_loading_scripts.html -%}
+    {%- endif -%}
 
   </body>
 </html>

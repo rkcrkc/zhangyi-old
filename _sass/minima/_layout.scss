@@ -40,6 +40,18 @@ SITE HEADER
   @include media-query($screen-sm) {
     @include relative-font-size(0.85);
   }
+
+  img {
+    max-width: 65px;
+
+    @include media-query($screen-md) {
+      max-width: 50px;
+    } 
+
+    @include media-query($screen-sm) {
+      max-width: 45px;
+    }     
+  }
 }
 
 .site-nav {
@@ -180,9 +192,16 @@ HOME PAGE
   }
 }
 
-.home-collection-wrapper {
+.home-collections-wrapper {
   margin-bottom: $gutter * 3;
-  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: $gutter;
+  grid-auto-rows: minmax(auto, auto);
+
+  @include media-query($screen-lg) {
+    grid-template-columns: repeat(1, 1fr);   
+  }    
 
   img {
     width: 100%;
@@ -195,7 +214,7 @@ HOME PAGE
   grid-gap: $gutter;
   grid-auto-rows: minmax(auto, auto);
 
-  @include media-query($screen-md) {
+  @include media-query($screen-lg) {
     grid-template-columns: repeat(2, 1fr);   
   }    
 
@@ -204,8 +223,8 @@ HOME PAGE
   }     
 }
 
-.home-collection-wrapper:hover,
-.home-collection-wrapper:visited:hover,
+.home-collection:hover,
+.home-collection:visited:hover,
 .home-project:hover,
 .home-project:visited:hover {
   img {
@@ -247,7 +266,6 @@ HOME PAGE
     @include media-query($screen-sm) {
       font-size: $small-font-size;
     }
-
   }
 
   p {
@@ -513,8 +531,8 @@ BIO PAGE & SNIPPET
   grid-auto-rows: minmax(auto, auto);
   align-items: center;  
 
-  margin: ($gutter * 4) 0;
-  padding-top: $gutter * 4;
+  margin: ($gutter * 3) 0;
+  padding-top: $gutter * 3;
   border-top: 1px solid $grey-color;
 
   @include media-query($screen-lg) {

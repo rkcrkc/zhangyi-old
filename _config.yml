@@ -15,6 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Zhang Yi
 subtitle: Artist
+logo: zy_logo.png
+graphic_mark: zh_graphic.png
 email: yi-zhang@foxmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Official portfolio
@@ -50,9 +52,8 @@ collections:
    permalink: /:name
 
 header_pages:
-- sets.md
-- stills.md
-- contact.md
+- index.md
+- bio.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

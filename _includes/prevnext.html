@@ -25,3 +25,13 @@ if (e.keyCode == '39') { window.location = '{{ next.url }}'; }
 	{% if prev %}<span class="prev-link"><a href="{{ prev.url}}"><i class="fas fa-angle-left"></i> {{ prev.title }}</a></span>{% endif %}
 	{% if next %}<span class="next-link"><a href="{{ next.url}}">{{ next.title }} <i class="fas fa-angle-right"></i></a></span>{% endif %}
 </div>
+
+{%- if page.layout == 'project' -%}
+<div class="prevnext-back-button">
+	<button><a class="secondary small" href="{{ site.url }}">View All Work <i class="fas fa-angle-right"></i></a></button>
+</div>
+{%- else -%}
+<div class="prevnext-back-button">
+	<button><a class="secondary small" href="{{ page.collection }}">To Collection <i class="fas fa-angle-right"></i></a></button>
+</div>
+{%- endif -%}

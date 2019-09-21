@@ -1,0 +1,46 @@
+---
+layout: collection-item
+title:  "House of Begh"
+title-zh: "伯克家的庭院"
+permalink: house_of_begh
+image: "mycollections/my_nanjiang/伯克家的庭院.jpg"
+artist: 
+- "Zhang Yi"
+- 張怡
+medium:
+- Oil on canvas
+- 油畫
+size: "80 x 90"
+copy-en: "The Begh was once the highest-ranking official in Yarkand.
+<br><br>After the collapse of the Yarkand Khanate there was no ruler, and so the region came to be administered by the hereditary Begh system.
+<br><br>In 1998, Chinese New Year just so happened to fall at the exact same time as Eid. Out with friends and family enjoying the holidays, we decided one afternoon to visit the old Begh residence.
+<br><br>Behind such a small door, you would never expect to find such a great big courtyard.
+<br><br>Beside the entrance, a tiny flock of hwameis sing together in sweet harmony. A white cockatoo sits pruning its feathers without a care in the world. A bright coloured macaw nestles itself into the perfect seating position.
+<br><br>Blue and green peacocks saunter around the courtyard, numbering more than I can count.
+<br><br>An elderly lady, close to 70 years of age but full of spirit, nods her head in our direction. I later learn that one of the uncles in our group is father in law to the lady’s son or daughter, hence the greeting between the two.
+<br><br>To the left, a long white hallway leads inside the main residence, but all I was interested in was the courtyard full of plants, flowers and beautiful rare birds. It didn’t even cross my mind to go inside and explore the rest of the house.
+<br><br>Oddly-shaped trees touching the sky line the back wall, already shooting out the soft shoots of early spring. Who knows what kind of lush green canopy they will have grown into come summer.
+<br><br>In the middle of the courtyard, a small man-made pond glistening and shimmering in the sunlight.
+<br><br>A red rug laid over a wooden bed-like frame made the perfect place to rest. We made ourselves comfortable and lazed the afternoon away until it started to get dark.
+<br><br>In this courtyard of centuries’ old, we sat for just a moment in this most unique of settings.
+"
+copy-zh: "伯克，是地方最高行政长官，世袭制。
+<br><br>叶尔羌国被灭之后，没有国王了。莎车城的最高行政长官就是伯克。
+<br><br>有幸在一九九八年的春天古尔邦节同时也是春节期间，去拜年时见到了伯克家的庭院。
+<br><br>小小的单扇木门，着实令人无法想象进门之后所见到的院落广阔。
+<br><br>门边透明鸟笼中数不清的小画眉鸟在婉转鸣唱。
+<br><br>一只白色的鹦鹉悠闲地在梳理自己的羽毛。另一只彩色的鹦鹉在找着自己合适的站姿。成群结队的蓝孔雀与绿孔雀在庭中信步。
+<br><br>一位年近古稀却精神矍铄的老人，对着我们这群来客的方向微微颔首，事后才知我们人群中有位大叔是他们家的儿女亲家，彼此致礼问候。
+<br><br>白色的长廊，修了十五米长，而我只被这满庭花树与珍禽而吸引，竟也未想穿过长廊去看看伯克家的内室。
+<br><br>高耸参天的奇木，已发出初春的嫩芽，不知入夏时会展开怎样茂密地浓荫。
+<br><br>院中还有一个小小的人工湖，映着天光闪闪发亮。
+<br><br>我们在院中铺着红地毯的小木床上休息，直到天色将暮方才离去。
+<br><br>在一座度过几百年时光的院落里小坐片刻，看见了与别家不同的景致。"
+
+---
+
+Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.

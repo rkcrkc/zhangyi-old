@@ -1,0 +1,21 @@
+---
+layout: collection-item
+title:  "Companions"
+title-zh: "相伴"
+permalink: companions
+image: "mycollections/my_nanjiang/相伴.jpg"
+artist: "Zhang Yi"
+medium: "Oil on canvas"
+size: "80 x 90"
+copy-en: "Not far from my house there was a mosque.<br><br>Every Sunday, everyone would leave their donkeys and carts here and then head to the bazaar.<br><br>At the entrance to the mosque, winter jasmine sprouted from the mounds of earth piled up in front, with spectacular yellow flowers in bloom.<br><br>And stuck in the ground were sticks holding ribbons in all different colours.<br><br>After afternoon nap one Sunday, I headed to Aunty Wu’s to find my little cousin, and passed by the mosque on the way.<br><br>The deep blue sky made the mosque shine white.<br><br>And then, out walked the imam, well-kept, wholesome and wise in his appearance, with a Qur’an in hand and black slippers on his feet.<br><br>Waiting for him outside was his wife, with a donkey in tow.<br><br>
+She helped him on to the donkey and they set off home. They chatted as she walked with the donkey in hand.<br><br>I walked behind them for a bit. I couldn’t understand what they were saying, but it seemed like family stuff.<br><br>So I watched them walk off into the distance, and turned back towards Aunty Wu’s.<br><br>Later, I heard that the mosque was going to be pulled down. They were going to put a new paved road through there on the way to the bridge being built over the river.<br><br>And then suddenly, overnight one night, the mosque was gone.<br><br>Lots of ancient buildings always disappear in the construction of cities."
+copy-zh: "在我家附近的地方有一座清真寺。<br><br>每个礼拜天，这里会聚集满很多空的驴车，人们都把车停在这里，然后徒步去巴扎。<br><br>清真寺门口的土堆上，有迎春花，开着黄灿灿非常显眼的花，还有各种各样的彩色布条的枝干插在土堆上。<br><br>那个周日的下午，睡好午觉，我去小吴阿姨家找弟弟，经过这座清真寺。<br><br>在碧蓝如洗的苍穹下，寺庙变成白色，我看见了里面走出的穿着整洁长相清隽智慧的阿訇。他手中拿着厚厚的古兰经，脚上穿着黑皮拖鞋，走向在路边等他回家的妇人。她手中牵着一头毛驴。<br><br>妇人扶着阿訇坐上毛驴，然后牵着驴，与他边走边聊，一起朝前走。
+我跟着他们走了一段，听不懂他们说什么，但感觉就像是在说家常事。<br><br>于是我目送他们远去，转身走向小吴阿姨家。<br><br>后来就听说清真寺要拆。因为在修柏油路，并且不远处的米夏河上要造一座桥。<br><br>一夜之间，那座清真寺就消失了。<br><br>在城市的建设中，总是会消失许多古老的建筑。"
+
+---
+
+Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.

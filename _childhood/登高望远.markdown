@@ -1,0 +1,17 @@
+---
+layout: collection-item
+title:  "As Far As The Eye Can See"
+title-zh: "登高望远"
+permalink: as_far_as_the_eye_can_see
+image: "mycollections/childhood/登高望远.jpg"
+artist:
+- "Zhang Yi"
+- 張怡
+medium:
+- "Oil on canvas"
+- 油畫
+size: "80 x 90"
+copy-en: "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae."
+copy-zh: "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae."
+
+---

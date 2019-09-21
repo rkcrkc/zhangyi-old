@@ -38,6 +38,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  position: relative;
 }
 
 /** Set `margin-bottom` to maintain vertical rhythm **/
@@ -61,6 +62,8 @@ BASE WRAPPERS
 
 .body-container {
   padding: 0 $gutter;
+  max-width: $max-width;
+  margin: 0 auto;
 
   @include media-query($screen-lg) {
     padding: $gutter/2 0 0;
@@ -70,13 +73,13 @@ BASE WRAPPERS
 .page-wrapper {
   padding: 0;
   flex: 1;
+  padding: $gutter;
 }
 
 .wrapper {
-  max-width: $max-width;
+  max-width: $screen-lg;
   margin-right: auto;
   margin-left: auto;
-  padding: $gutter;
 
   @extend %clearfix;
 

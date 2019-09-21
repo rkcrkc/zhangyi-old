@@ -38,7 +38,7 @@ collections:
   my_nanjiang:
    output: true
    permalink: /:name
-  a_childhood:
+  childhood:
    output: true
    permalink: /:name  
   projects:

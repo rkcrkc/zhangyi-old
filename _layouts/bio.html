@@ -9,18 +9,23 @@ layout: default
 		<img src="/assets/{{ page.portrait }}">
 	</div>
 
-	<div class="page-title">
-      <h2>{{ site.title }}</h2>
-      <p>{{ page.intro }}</p>		
+	<div class="page-title grid-2">
+		<h2 style="text-transform: none;"><em>Before all else, an artist should be true to oneself, rather than trying to fit to the tastes of others. And be brave, to express your own thoughts and feelings in their pure and authentic state.</em></h2>
 	</div>
 
 	<!-- Row 2: Mission -->
 	<div>
-		<p>{{ page.mission }}</p>
+		<p>I grew up in the rural outskirts of Kashqar, a trading city on the old Silk Road in Xinjiang province, western China. My paintings are of the people I once knew, the memories I hold on to, and the stories I still tell to this day.</p>		
+		<p>10 years of inner searching and I still had no way to properly express the feelings and sentiments filling my mind of my childhood home. Then in 2006 I came across the works of Georgia O’Keefe.</p>
+		<p>Her landscapes the badlands of New Mexico, so powerful in their honesty. The sun, the desert, the blue sky. It reminded me of Xinjiang. And it was like an epiphany moment for me.</p>
+		<p>I suddenly realised that the best way to express what’s inside is the way that feels most comfortable for <em>you</em>. She simply painted what she saw. Yet I had never even considered that as an option.</p>
+		<p>I now knew that all I should do too was paint what I saw. The endless azure sky. The green trees. The earth.</p>
 	</div>
 
 	<div>
-		<p>{{ page.mission-zh }}</p>
+		<p>油画作品系列的创作，都是源于我的生活，从出生以后居住在新疆喀什南疆的郊区生活经历，我看见和接触到的人和事，都是真实生活的内容，不是游客或者采风的艺术家们浮光掠影地采集。</p>   		
+		<p>长达十年的时间无法寻找到合适的途径去表达自己的内心对于新疆出生地的情感和思念，直到2006年见到美国艺术家乔琪·欧姬芙的作品，她描绘了新墨西哥州的幽灵农场，那种简洁的绘画语言，阳光沙漠蓝天与新疆一样色彩，瞬间打开了我创作自己南疆系列油画的开关。也许之前是因为在中国的美术学院都是统一模式的创作方法，不能契合我的心灵感受，所以无从表达。</p>
+		<p>看到了欧姬芙的作品，让我明白，用自己最舒适的方法去画出自己内心的感受，就是最合适的创作方法；欧姬芙说她只画她看见的。这也让我知道应该诚实地表达出我见过的蓝天，绿树，土地，而不是美术学院教授们要求的画面色彩的统一和谐或者那种所谓有修养的色彩表达。所以我喜欢画家马蒂斯的作品中对于色彩表达。我想一个创作者首先应该诚实，敢于真实地表达自己的感受。</p>
 	</div>
 
 	<!-- Row 3: Exhibitions -->
@@ -28,13 +33,26 @@ layout: default
 		<h3>Exhibitions 參展</h3>
 	</div>  
 
-	<div>
-		<p>{{ page.exhibitions }}</p>
+	<div class="bio-exhibitions">		
+		{%- include bio_exhibitions_en.html %}
 	</div>
 
-	<div>
-		<p>{{ page.exhibitions-zh }}</p>
+	<div class="bio-exhibitions">
+		{%- include bio_exhibitions_zh.html %}
 	</div>
+
+	<!-- Row 4: Solo exhibitions -->
+	<div class="home-title page-title">
+		<h3>Solo Exhibitions 個展</h3>
+	</div>  
+
+	<div class="bio-exhibitions">
+		{%- include bio_solo_en.html %}
+	</div>
+
+	<div class="bio-exhibitions">
+		{%- include bio_solo_zh.html %}
+	</div>	
 
 	<!-- Row 4: Education -->
 	<div class="home-title page-title">
@@ -42,11 +60,14 @@ layout: default
 	</div> 
 
 	<div>
-		<p>{{ page.education }}</p>
+		<p>Born Yarkand, Kashgar, Xinjiang, China. Currently based in Shanghai.</p>
+		<p>Graduated Xinjiang Normal University School of Arts (BA); Shanghai University, College of Arts; and
+		Donghua University (MFA).</p>
 	</div>
 
 	<div>
-		<p>{{ page.education-zh }}</p>
+		<p>出生于中国新疆莎车，现工作生活于上海。</p>
+		<p>毕业于新疆喀什师范学校美术班，新疆师范大学美术系，上海大学美术学院，东华大学MFA艺术硕士。</p>
 	</div>
 
 

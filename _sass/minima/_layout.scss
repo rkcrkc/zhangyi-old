@@ -4,9 +4,12 @@ SITE HEADER
 
 .site-header {
   min-height: $gutter * 1.865;  
+  padding: $gutter;
+  width: 100%;  
 
   // Positioning context for the mobile navigation icon
-  position: relative;
+  position: fixed;
+  top: 0;
 
   @include media-query($screen-sm) {
     padding-bottom: $gutter * 0.5;
@@ -18,6 +21,7 @@ SITE HEADER
     grid-gap: 0;
     grid-auto-rows: minmax(auto, auto);
     align-items: center;
+    max-width: $max-width;
 
     @include media-query($screen-sm) {
       align-items: end;
@@ -195,8 +199,8 @@ HOME PAGE
 .home-collections-wrapper {
   margin-bottom: $gutter * 3;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: $gutter;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: $gutter*2;
   grid-auto-rows: minmax(auto, auto);
 
   @include media-query($screen-lg) {
@@ -246,7 +250,7 @@ HOME PAGE
 
 .home-collection-image, .home-project-image, .collection-index-image {
   overflow: hidden;
-  border: 3px solid black;  
+  border: 0 solid black;  
   
   img {
     -moz-transition: all 650ms;
@@ -316,13 +320,12 @@ COLLECTION ITEM PAGE
 }
 
 .collection-item-media {
-  padding-bottom: $gutter * 3;
+  padding-bottom: $gutter * 2;
   text-align: center;
 
   img { 
     max-width: 100%;
     max-height: 90vh;
-    border: 3px solid black;
 
     @include media-query($screen-md) {
       max-height: 100%;
@@ -343,6 +346,8 @@ COLLECTION ITEM PAGE
   grid-template-columns: 1fr 1fr;
   grid-gap: $gutter * 3;
   grid-auto-rows: minmax(auto, auto);
+  background: linear-gradient(rgba(253,253,253,0), rgba(253,253,253,1));
+  padding-top: $gutter * 2;
 
   @include media-query($screen-lg) {
     grid-gap: $gutter;
@@ -354,15 +359,26 @@ COLLECTION ITEM PAGE
 
   .copy-en, .copy-zh {
 
-    .item-meta {
-      padding: ($gutter * 2) 0 0;
-    }
-
-    .item-meta > ul {
-      margin: 0;
-    }
-
   }
+
+  .copy-zh .body-text {
+    font-size: 16px;
+  }
+
+  @include media-query($screen-lg) {
+    .meta-en {
+      grid-row: 2;
+    }
+  }
+
+  .meta-en, .meta-zh {
+    padding-top: $gutter * 2;
+    border-top: 1px solid silver;
+  }
+
+  .meta-en > ul, .meta-zh > ul {
+    margin: 0;
+  }  
 }
 
 
@@ -503,7 +519,7 @@ BIO PAGE & SNIPPET
   grid-template-columns: 1fr 1fr;
   grid-gap: $gutter * 2;
   grid-auto-rows: minmax(auto, auto);
-  align-items: top;  
+  align-items: start;  
 
   @include media-query($screen-lg) {
     grid-gap: $gutter;
@@ -522,6 +538,21 @@ BIO PAGE & SNIPPET
       padding: $gutter 0;
     }    
   }  
+
+  .grid-2 {
+    align-content: end;
+  }
+}
+
+.bio-exhibitions {
+    ul {
+      margin: 0;
+    }
+
+    li {
+      padding-bottom: 8px;
+      font-size: $small-font-size;
+    }
 }
 
 .bio-snippet {
